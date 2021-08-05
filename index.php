@@ -1,0 +1,139 @@
+
+<?php
+ include "connect.php";
+?>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>RedBadge</title>
+		<link rel="stylesheet" href="help/assets/css/main.css" />
+	</head>
+	<body>
+		<?php
+			include "navbar.php"
+		?>
+		<!-- Banner -->
+			<section class="banner full">
+				<article>
+					<img src="help/images/slide01.jpg" alt="" />
+					<div class="inner">
+						<header>
+							<p>Dont remain silence, save a girl, save a family</p>
+							<h2>Spread Awareness</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="help/images/slide02.jpg" alt="" />
+					<div class="inner">
+						<header>
+							<p>Dont let a wrong decision destroy your life</p>
+							<h2>No more confusion</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="help/images/slide03.jpg"  alt="" />
+					<div class="inner">
+						<header>
+							<p>we will help you break the chains and set you free</p>
+							<h2>Fight your own way</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="help/images/slide04.jpg"  alt="" />
+					<div class="inner">
+						<header>
+							<p>Contact your local healthcare center to know better</p>
+							<h2>Happy to help</h2>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="help/images/slide05.jpg"  alt="" />
+					<div class="inner">
+						<header>
+							<p>Redbatch will put themselves in your shoe</p>
+							<h2>No more problems</h2>
+						</header>
+					</div>
+				</article>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style2">
+				<div class="inner">
+					<div class="grid-style">
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="help/images/pic02.jpg" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>Some United souls ready to fight your fight</p>
+										<h2>••Who Are We••</h2>
+									</header>
+									<p> sometimes the rural area girls face real problem during their menstrual cycle because help can not reach them in time, so we are a online healthcare service ready to serve and help you with all we can, to know more please kindly contact your nearest health care system</p>
+									<footer class="align-center">
+										<a href="#" class="button alt">Learn More</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="help/images/pic03.jpg" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>How does the system works</p>
+										<h2>What we do, How we do it</h2>
+									</header>
+									<p> Each healthcare center will have our website, patient can sign up under a hospital or healthcare center that is already our registered user, they will then provide you help and all sorts of instrustion during your menstrual cycle, also we will spply you with special consultant if needed</p>
+									<footer class="align-center">
+										<a href="#" class="button alt">Learn More</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<?php
+						if (!loggedin()) {
+	                    echo'<a href="login.php"><p style="font-size:22px; color:white;">Login</p></a>';
+}
+
+						?>
+
+
+
+						
+						<a href="signup.php"><h2>Sign-up</h2></a>
+					</header>
+				</div>
+			</section>
+
+		<?php
+			include "footer.html"
+		?>
+		<!-- Scripts -->
+			<script src="help/assets/js/jquery.min.js"></script>
+			<script src="help/assets/js/jquery.scrollex.min.js"></script>
+			<script src="help/assets/js/skel.min.js"></script>
+			<script src="help/assets/js/util.js"></script>
+			<script src="help/assets/js/main.js"></script>
+
+	</body>
+</html>

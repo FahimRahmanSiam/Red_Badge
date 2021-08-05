@@ -1,0 +1,209 @@
+body{
+	background-image:url(../img/companyHome.jpeg);
+	padding:0px;
+	margin: 0px;
+	font-size: 22px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+	padding: 10px;
+	background-color:rgba(255,0,0,0.3);
+	font-size: 40px;
+	width: 30%;
+	margin-left: 500px;
+	margin-top: -100px;
+	box-shadow: 5px 5px 2px red;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	color: white;
+}
+.personalInfo{
+	width: 600px;
+	height: 480px;
+	background-color: white;
+	margin-left: 50px;
+}
+.head{
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+.patientInfo{
+	width: 550px;
+	height: 385px;
+	background-color: white;
+	margin-left: 50px;
+	float: right;
+	margin-top: -480px;
+	margin-right: 40px;
+}
+.middle{
+	width: 80%;
+	height: 400px;
+	margin-top: 80px;
+	background-color: rgba(0,255,0,0.3);
+	background-size: cover;
+	margin-left: 130px;
+}
+.bottom{
+	width: 100%;
+	margin-top: 70px;
+	height: 250px;
+	background-color: white;
+}
+.emgInfo{
+	width: 50%;
+	height: auto;
+	background-color: grey;
+	margin-left: 260px;
+	margin-top: -210px;
+}
+.btn{
+	float: right;
+	margin-right: 100px;
+	width: 120px;
+	height: 50px;
+	margin-top: -90px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	background-color: black;
+	transition: 0.4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+    border-radius: 20%;
+}
+.prescription{
+	width: 60%;
+	margin-top: 100px;
+	margin-left: 300px;
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+	padding: 1px;
+	border:3px solid black;
+}
+.presc input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+#pres{
+	height: 100px;
+}
+.presc input[type=submit]{
+	float: right;
+	  width: 20%;
+  padding: 8px 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: green;
+  color: white;
+  transition: 0.4s;
+}
+.presc input[type=submit]:hover{
+	transform: scale(1.2);
+}
+#submit{
+	background-color: yellow;
+	padding: 7px;
+	font-size: 17px;
+	font-weight: bold;
+	transition: 0.5s;
+}
+#submit:hover{
+	transform: scale(1.1);
+	border:1px solid black;
+}
+.search{
+	margin-top: -20px;
+	margin-left: 450px;
+}
+.Search_O{
+	width: 30%;
+	text-align: center;
+	padding: 6px;
+	transition: 0.5s;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.Search_O:focus{
+	border:2px solid black;
+	background-color:rgba(0,0,255,0.3);
+}
+#icon {
+  display: inline-block;
+  width: 40px;
+  background-color: black;
+  padding: 8px 0px 8px 15px;
+  margin-left: 15px;
+  -webkit-border-radius: 4px 0px 0px 4px; 
+  -moz-border-radius: 4px 0px 0px 4px; 
+  border-radius: 4px 0px 0px 4px;
+  color: white;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  border: solid 0px #cbc9c9;
+}
+.pquestion{
+
+	 width: 40%;
+	 margin-top: 90px;
+	  margin-left: 100px;
+	 font-size: 18px;
+	  box-shadow: 5px 5px 8px 5px aqua;
+	  border-radius: 15%;
+	  background-color:rgba(0,255,0,0.3);
+	  padding-top: 2px;
+	  padding-left: 15px;
+	  padding-right: 15px;
+	  padding-bottom: 15px;
+}
+.pquestion h3{
+	background-color: yellow;
+	text-align: center;
+	border-radius: 25%;
+	font-size: 29px;
+}
+.p_search_result{
+ 	width: 40%;
+	 margin: 60px auto;
+	 padding: 10px;
+	 font-size: 22px;
+	  box-shadow: 5px 5px 8px 5px black;
+	  background-color:rgba(255,0,0,0.3);
+	  padding-top: 20px;
+	  padding-left: 35px;
+	  padding-right: 15px;
+	  padding-bottom: 15px;
+}
+.appoint{
+
+	 width: 40%;
+	 margin-top: -230px;
+     float: right;
+     margin-right: 40px;
+	 font-size: 18px;
+	  box-shadow: 5px 5px 8px 5px aqua;
+	  border-radius: 15%;
+	  background-color:rgba(0,255,0,0.3);
+	  padding-top: 2px;
+	  padding-left: 15px;
+	  padding-right: 15px;
+	  padding-bottom: 15px;
+}
+.appoint h3{
+	background-color: yellow;
+	text-align: center;
+	border-radius: 25%;
+	font-size: 29px;
+}

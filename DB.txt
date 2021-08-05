@@ -1,0 +1,31 @@
+
+
+localhost/redbatch-re/
+
+
+redbatch
+	user_account
+		UserID
+		Name
+		Email
+		Password
+		Phone
+  		Address
+		dob
+		company
+		level
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
